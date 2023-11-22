@@ -1,0 +1,43 @@
+*{margin: 0;padding: 0;}
+nav a{
+    text-decoration: none;
+}
+header{
+background-color: aquamarine;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    padding-top :2px ;
+}
+img{
+    height: 400px;
+    width: 700px;
+}
+#image_container{
+
+    border:3px black;
+    height: 500pxpx;
+    display: flex;
+align-items: center;
+
+}
+    #pseudo{height: 25px;
+        width: 50px;
+        background-color: aqua;
+        border: 2px;
+
+    }
+    .pseudo:hover{
+        height: 60px;
+        width: 100px;
+        border-radius: 20%;
+        background-color: brown;}
+            
+        .pseudo:active{
+            height: 120px;
+            width: 120;
+            border: 5px red;
+            background-color: aquamarine;
+        }
