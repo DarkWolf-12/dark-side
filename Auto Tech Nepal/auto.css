@@ -1,0 +1,164 @@
+*{margin: 0;
+padding: 0;
+font-family: Arial;
+border: border-box ;
+}
+.navbar{
+    margin: 1px;
+    padding: 1px;
+    height: 80px;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+   align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+     align-self: center;
+}
+.logo{ 
+    background-image: url("image/slogan.png ");
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+}
+.border{
+ 
+    border: 2px solid transparent;
+}
+.border:hover{
+    border:2px solid rgb(161, 17, 17);
+}
+ .icon-catalog{
+    color: brown;
+ }
+ .nav-catalog{
+    margin: 1px;
+    padding: 1px;
+    color: rgb(25, 171, 171);
+    display: inline;
+    font-size: 1.5rem;
+    border:4px solid transparent;
+
+ }
+ .nav-catalog:hover{
+    border: 3px solid rgb(14, 145, 84) ;
+ }
+
+ .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.5px solid transparent;
+    background-color: rgb(18, 62, 87);
+    border-radius: 10px;
+    height: 35px;
+    width: 400px;
+   
+    
+ }
+ .search-select{
+    border-bottom-left-radius : 6px;
+    border-top-left-radius: 6px;
+    background-color: rgb(222, 206, 196);
+
+    
+ }
+ .search-input{
+     border-top-right-radius: 6px;
+     border-bottom-right-radius: 6px;
+    width: 380px;
+    background-color: antiquewhite;
+    border: none;
+    font-size: 17px;
+    border: none;
+ }
+
+ .search-icon{
+    
+    color: rgb(196, 203, 208);
+    font-size: 1.5rem;
+margin-left: 5px;
+align-self: center;
+border: none;
+
+ }
+  
+  span{
+    font: 0.7rem;
+    color: rgb(234, 100, 100);
+  }
+  .nav-second{
+    font: 0.8rem;
+    color: rgb(235, 62, 71);
+    font-weight: 100px;
+  }
+  .nav-classes  {
+    color: rgb(5, 88, 88);
+    font-size: 30px;
+    display: flex;
+     
+  }
+  .nav-classes:hover{
+    border: 3px solid rgb(18, 18, 128);
+  }
+
+  /*pannel*/
+
+  .pannel{
+    height: 40px;
+    background-color: darkslategrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  .pannel-all{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(31, 174, 235);
+  }
+  .pannel-all:hover{
+    border: 0.5px solid rgb(255, 0, 4);
+  }
+  .pannel-oil{
+    color: silver;
+    display: inline-flex;
+    width: 60%;
+    font-size: 1rem;
+    margin-right: 50px;
+    justify-content: space-evenly;
+    
+    
+  }
+  .deal-parts{
+    font-size: 1.5rem;
+    color: darkgrey;
+  }
+  .deal-parts:hover{
+    border: 2px solid rgb(203, 11, 11);
+  }
+
+
+  /*hero section*/
+
+  .hero-section{
+    margin: 1px;
+
+  background-image: url(" image/learn.jpg ");
+ 
+   
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+
+  }
+  .hero-messege{
+    margin: 1px;
+    background-color: cornflowerblue;
+    justify-content: center;
+    display: flex;
+  }
+  a{
+    color: rgb(146, 12, 39);
+  }
